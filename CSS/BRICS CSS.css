@@ -1,8 +1,8 @@
 header {
-     text-align: center;
-     background-size: cover;
-     color: white;
-   }
+  text-align: center;
+  background-size: cover;
+  color: white;
+}
 body {
   background-image: url("http://www.clker.com/cliparts/5/D/u/N/J/C/worldmap-grey.svg");
   background-color: white;
@@ -23,11 +23,11 @@ body {
   text-indent: 60px;
 }
 .navbar {
-    text-align: center;
-    top: 0;
-    width: 100%;
-    background: rgba(255, 148, 77, 0.9);
-    border: none;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 148, 77, 0.9);
+  border: none;
 }
 #HealthcareinBRICS h1 {
   margin-top: 0px;
@@ -46,13 +46,13 @@ ul {
   text color: black;
 }
 li:hover {
-    background-color: rgba(144,144,144,0.3);
+  background-color: rgba(144,144,144,0.3);
 }
 .nav.navbar-nav li a {
-    color: black;
-    font-size: 18px;
-    font-style: arial;
-    text-align: center;
+  color: black;
+  font-size: 18px;
+  font-style: arial;
+  text-align: center;
 }
 #bricscountriesh2 h2 {
   background-color: rgba(255, 148, 77, 0.3);
@@ -102,4 +102,18 @@ table {
 #table th {
   padding-right: 30px;
   background-color: rgba(255, 148, 77, 0.3);
+}
+#social-buttons button {
+  font-style: arial;
+  background-color: rgba(255, 148, 77, 0.9);
+  font-weight: 600;
+  margin: 10px;
+}
+#social-buttons button:hover {
+  background-color: rgba(144,144,144,0.3);
+}
+#social-buttons a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
 }

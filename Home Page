@@ -3,8 +3,10 @@
     <head>
       <link href='css/bootstrap.css' rel='stylesheet'/>
       <link href='css/BRICS CSS.css' rel='stylesheet'/>
+
       <title>BRICS Healthcare</title>
-      <nav class="navbar navbar-default">
+
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#BRICS">BRICS</a>
@@ -20,19 +22,22 @@
       <li><a href="file:///Users/ARAS/Documents/Code%20First/ChangingTrendsInAsia.github.io/About%20Us", "#About">About Us</a></li>
       <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSck3ZjnCGOOOf8x9syFoEzEDeVeyAo9tXsL7_LGqPEwhGwwYA/viewform?usp=sf_link","#Feedback">Feedback</a></li>
     </ul>
-  </div>
+    </div>
 </nav>
   <center>
-    <img src="BRICS logo.png" alt="BRICS logo" style="width:450px;height:300px;">
+    <div class='text-centre col-sm-12'>
+      <img src="BRICS logo.png" alt="BRICS logo" style="width:450px;height:300px;">
+    </div>
   </centre>
     </head>
+
   </div>
     <body>
       <div class='text-centre col-sm-12'>
-      <div id="WhatisBRICS">
-      <h1>What is BRICS?</h1>
-    </div>
-    </div>
+        <div id="WhatisBRICS">
+          <h1>What is BRICS?</h1>
+        </div>
+      </div>
 </div>
 <div id="main text home page">
   <div class='container'>
@@ -48,7 +53,11 @@
     </div>
     </div>
       <div class='text-centre col-sm-3'>
-        <a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/TheBricsPost">Tweets by TheBricsPost</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div id='social-buttons'>
+          <button class='btn btn-news'><a href="http://thebricspost.com/">BRICS News</a></button>
+          <button class='btn btn-twitter'><a href="https://twitter.com/thebricspost?lang=en">Twitter</a></button>
+          <button class='btn btn-button'><a href="https://www.facebook.com/The-Brics-Post-176305575844581/">Facebook</a></button>
+        </div>
       </div>
     </div>
   </div>
@@ -92,9 +101,9 @@
                 <h3>South Africa</h3>
                 <p>South Africa is the 25th largest country by land area.  It has a population of 55 million.  South Africa is the southern most country in the eastern hemisphere.  It has a multiethnic society, and a wide variety of cultures and
                   languages.  It has the second largest economy in Africa, after Nigeria.  South Africa's healthcare system comprises of public and private funding.</p>
-                </div>
+              </div>
+              </div>
       </div>
-  </div>
       </div>
     </body>
   </html>
